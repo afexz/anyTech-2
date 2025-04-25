@@ -51,8 +51,8 @@ const AppRouter = () => {
         <>
             <ScrollTopBehavior />
             <Routes>
-                <Route path="/" element={<ItSolution />} />
-                <Route path="/software-development" element={<SoftwareDevelopment />} />
+                {/* <Route path="/" element={<ItSolution />} /> */}
+                <Route path="/" element={<SoftwareDevelopment />} />
                 <Route path="/cyber-security" element={<CyberSecurity />} />
 
                 <Route path="/about" element={<About />} />

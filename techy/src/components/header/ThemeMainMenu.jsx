@@ -106,38 +106,63 @@ const BlogMenu = [
 const ThemeMainMenu = () => {
   return (
     <Fragment>
-        <ul className="navbar-nav main-navbar mb-2 mb-lg-0 ps-1">
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle drop-nav" href="#" id="navbarDropdownOne">
-                Home
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdownOne">
-                {HomeMenu.map((val, i)=>(
-                  <li key={i}><Link className="dropdown-item" to={val.routerPath}>{val.name}</Link></li>
-                ))}
-              </ul>
-            </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link" href="#" id="navbarDropdownTwo">
-                Pages
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdownTwo">
-                {Miscellaneous.map((val, i)=>(
-                  <li key={i}><Link className="dropdown-item" to={val.routerPath}>{val.name}</Link></li>
-                ))}
-              </ul>
-            </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown">
-                Project
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                {ProjectMenu.map((val, i)=>(
-                  <li key={i}><Link className="dropdown-item" to={val.routerPath}>{val.name}</Link></li>
-                ))}
-              </ul>
-            </li>
-            <li className="nav-item dropdown">
+      <ul className="navbar-nav main-navbar mb-2 mb-lg-0 ps-1">
+        <li className="nav-item dropdown">
+          <Link className="nav-link" to="/">
+            Home
+          </Link>
+          {/* <a
+            className="nav-link dropdown-toggle drop-nav"
+            href="#"
+            id="navbarDropdownOne"
+          >
+            Home
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdownOne">
+            {HomeMenu.map((val, i) => (
+              <li key={i}>
+                <Link className="dropdown-item" to={val.routerPath}>
+                  {val.name}
+                </Link>
+              </li>
+            ))}
+          </ul> */}
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/about">
+            About Us
+          </Link>
+          {/* <a className="nav-link" href="#" id="navbarDropdownTwo">
+            About Us
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdownTwo">
+            {Miscellaneous.map((val, i) => (
+              <li key={i}>
+                <Link className="dropdown-item" to={val.routerPath}>
+                  {val.name}
+                </Link>
+              </li>
+            ))}
+          </ul> */}
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/project-grid">
+            Project
+          </Link>
+          {/* <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+            Project
+          </a> */}
+          {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            {ProjectMenu.map((val, i) => (
+              <li key={i}>
+                <Link className="dropdown-item" to={val.routerPath}>
+                  {val.name}
+                </Link>
+              </li>
+            ))}
+          </ul> */}
+        </li>
+        {/* <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownThree">
                 Blog
               </a>
@@ -146,13 +171,15 @@ const ThemeMainMenu = () => {
                   <li key={i}><Link className="dropdown-item" to={val.routerPath}>{val.name}</Link></li>
                 ))}
               </ul>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">contact</Link>
-            </li>
-        </ul>
+            </li> */}
+        <li className="nav-item">
+          <Link className="nav-link" to="/contact">
+            contact
+          </Link>
+        </li>
+      </ul>
     </Fragment>
-  )
+  );
 }
 
 export default ThemeMainMenu
