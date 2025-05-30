@@ -4,15 +4,15 @@ import CommonCounter from './CommonCounter'
 
 const counterContent =[
     {
-        num:'125',
-        desc:'We Develop Over 125 Software',
+        num:'20',
+        desc:'We Develop Over 20 Software',
     },
     {
-        num:'64',
+        num:'8',
         desc:'Global Clients & Trusted Us',
     },
     {
-        num:'122',
+        num:'30',
         desc:'Clients Reviews Our Software',
     },
 ]

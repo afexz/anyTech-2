@@ -1,6 +1,8 @@
 import React, {Fragment} from 'react'
 import { Link } from 'react-router-dom'
 import CommonCounter from '../counter/CommonCounter'
+import heroImg from '../../assets/img/hero/programming.jpg'
+import heroImg2 from '../../assets/img/hero/hero-2b.jpg'
 
 const ThemeBannerTwo = () => {
     return (
@@ -25,7 +27,7 @@ const ThemeBannerTwo = () => {
                             <div className="theme__content__two text-md-start text-center">
                                 <h4 className="hero-sub-title mb-25">Well Known Development Company</h4>
                                 <h1 className="main-title-two">
-                                    <span>Techy Software</span>
+                                    <span>ANY-Tech Software</span>
                                     <span>Development</span>
                                     <span>Company</span>
                                 </h1>
@@ -35,8 +37,8 @@ const ThemeBannerTwo = () => {
                     </div>
                 </div>
                 <div className="hero-img-wrapper">
-                    <img className="hero-img img-1" src="assets/img/hero/hero-1b.jpg" alt="img"/>
-                    <img className="hero-img img-2" src="assets/img/hero/hero-2b.jpg" alt="img"/>
+                    <img className="hero-img img-1" src={heroImg} alt="img"/>
+                    <img className="hero-img img-2" src={heroImg2} alt="img"/>
                     <img className="hero-img arrow-1" src="assets/img/shape/arrow-1b.svg" alt="icon"/>
                     <img className="hero-img arrow-2" src="assets/img/shape/arrow-2b.svg" alt="icon"/>
                     <img className="hero-img arrow-3" src="assets/img/shape/arrow-3b.svg" alt="icon"/>
@@ -46,8 +48,8 @@ const ThemeBannerTwo = () => {
                         </span>
                         <div className="box">
                             <span className="text-theme">
-                                <span className="counter"><CommonCounter value="45" /></span>+</span>
-                            Awards Win
+                                <span className="counter"><CommonCounter value="20" /></span>+</span>
+                            Projects 
                         </div>
                     </div>
                     <div className="hero-box-two">
@@ -56,8 +58,8 @@ const ThemeBannerTwo = () => {
                         </div>
                         <div className="box">
                             <span className="text-theme">
-                                <span className="counter"><CommonCounter value="45" /></span>+</span>
-                            Awards Win
+                                <span className="counter"><CommonCounter value="10" /></span>+</span>
+                            customers 
                         </div>
                     </div>
                 </div>

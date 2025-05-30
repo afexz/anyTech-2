@@ -91,37 +91,6 @@ const ThemeMenuTwo = () => {
                                 </div>
                             </nav>
                         </div>
-                        <div className="col-xl-4 col-lg-4 col-6 text-end">
-                            <ul className="right-nav mb-0 d-flex align-items-center justify-content-end">
-                                <li>
-                                    <div className="right-language">
-                                        <div className="dropdown-language">
-                                            <a className="language-btn dropdown-toggle" href="#" >
-                                                English
-                                                <i className="fal fa-chevron-down" />
-                                            </a>
-                                            <ul className="dropdown-menu-language" aria-labelledby="dropdownMenuLink">
-                                                <li>
-                                                    <a className="dropdown-item" href="#">Arabic</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">USA</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">German</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">Chaina</a>
-                                                </li>
-                                                <li>
-                                                    <a className="dropdown-item" href="#">Spanish</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>

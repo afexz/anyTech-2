@@ -21,6 +21,7 @@ import TeamOne from '../../components/team/TeamOne'
 import BlockStylFive from '../../components/block/BlockStylFive'
 import FeedbackTwo from '../../components/testimonial/FeedbackTwo'
 import FooterTwo from '../../components/footer/FooterTwo'
+import img from '../../assets/img/about/about-2b.jpg'
 
 
 //modal video
@@ -43,7 +44,7 @@ const SoftwareDevelopment = () => {
             <div className="main-page-wrapper">
                 {/* Helmet start */}
                 <Helmet>
-                    <title>Software Development || Techy – IT Solution & Web Security React Template</title>
+                <title>ANY-Tech – Building Modern Websites & Scalable Digital Solutions</title>
                 </Helmet>
                 {/* Helmet end */}
 
@@ -58,17 +59,17 @@ const SoftwareDevelopment = () => {
                 {/*theme-banner-two end*/}
 
                 {/*brand-area start*/}
-                <section className="brand-area brand-bg pt-25 pb-25 mt-1">
+                <section className="brand-a rea brand-bg pt-25 pb-25 mt-1">
                     <div className="container">
-                        <div className="row gx-4 gx-xxl-5">
+                        {/* <div className="row gx-4 gx-xxl-5">
                             <BrandTwo />
-                        </div>
+                        </div> */}
                     </div>
                 </section>
                 {/*brand-area end*/}
 
                 {/*techy-feature start*/}
-                <section className="techy-feature pt-150 pb-30 pt-lg-120">
+                <section className="techy-feature pt-6 pb-30 pt-lg-60">
                     <div className="container">
                         <FeatureThree />
                     </div>
@@ -85,7 +86,7 @@ const SoftwareDevelopment = () => {
                         <div className="row gx-4 gx-xxl-5 align-items-center">
                             <div className="col-xxl-5 col-xl-4 col-md-6 order-2" data-aos="fade-up" data-aos-delay={100}>
                                 <div className="about-img-wrapper-two text-lg-end position-relative mb-45">
-                                    <img className="assets/main-img w-100" src="assets/img/about/about-2b.jpg" alt="img" />
+                                    <img className="assets/main-img w-100" src={img} alt="img" />
                                     <img className="shape-one" src="assets/img/shape/line-round-4a.svg" alt="shape" />
                                 </div>
                             </div>
