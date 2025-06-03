@@ -38,7 +38,7 @@ const CopyRightThree = () => {
                     </div>
                     <div className="col-xl-4 col-lg-6  text-center pb-30">
                         <p className="text-white mb-20">
-                            <a href="https://themeforest.net/user/hamina-themes/portfolio">Hamina-Themes</a>
+                            <a href="https://themeforest.net/user/hamina-themes/portfolio">anyTech</a>
                             © {new Date().getFullYear()}, All Rights Reserved</p>
                     </div>
                     <div

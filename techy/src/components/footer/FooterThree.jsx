@@ -5,13 +5,13 @@ import CopyRightThree from './CopyRightThree'
 
 const ContactContent = [
     {
-      link: 'techy@mail.com'  
+      link: 'anytech11@gmail.com'  
     },
     {
-      link: '(505) 555-0125'  
+      link: '(918) 555-0125'  
     },
     {
-      link: '6391 Elgin St. Celina, Delaware 10299'  
+      link: '90515 S Desert Palm ave. Broken Arrow, Oklahoma 74012',  
     },
 
     {
@@ -22,19 +22,19 @@ const ContactContent = [
 
 const InstaFeed = [
     {
-      img: 'insta-01',
+      img: 'insta-1',
       routerPath: '#'
     },
     {
-        img: 'insta-02',
+        img: 'insta-2',
         routerPath: '#'
     },
     {
-        img: 'insta-03',
+        img: 'insta-3',
         routerPath: '#'
     },
     {
-        img: 'insta-04',
+        img: 'insta-4',
         routerPath: '#'
     },
 ]
@@ -55,8 +55,8 @@ const FooterThree = () => {
                 <div className="container">
                     <div className="row gx-4 gx-xxl-5 mb-10">
                         <div className="col-xxl-3 col-md-4" data-aos="fade-up">
-                            <div className="footer__widget mb-40">
-                                <Link className="logo-title" to="/">Techy.</Link>
+                            <div className="footer__widget mb-30">
+                                <Link className="logo-title" to="/">anyTech.</Link>
                             </div>
                         </div>
                         <div className="col-xxl-3 col-md-4" data-aos="fade-up">
