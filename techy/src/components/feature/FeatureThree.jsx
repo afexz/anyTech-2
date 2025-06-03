@@ -1,28 +1,29 @@
 import React, {Fragment} from 'react'
 
 const FeaturesContent = [
-    {
-        icon: 'icon-15b',
-        title: 'Hybrid Apps',
-        desc: 'Authoritatively revolutionize the realise is performance based content.',
-        dataAos:'fade-up',
-        dataDelay:'',
-    },
-    {
-        icon: 'icon-16b',
-        title: 'Simple Pricing',
-        desc: 'Authoritatively revolutionize the realise is performance based content.',
-        dataAos:'fade-up',
-        dataDelay:'50',
-    },
-    {
-        icon: 'icon-17b',
-        title: '24/7 Support',
-        desc: 'Authoritatively revolutionize the realise is performance based content.',
-        dataAos:'fade-up',
-        dataDelay:'100',
-    },
-]
+  {
+    icon: "icon-15b",
+    title: "Hybrid Apps",
+    desc: "Seamlessly build cross-platform applications that deliver native performance and a consistent user experience.",
+    dataAos: "fade-up",
+    dataDelay: "",
+  },
+  {
+    icon: "icon-16b",
+    title: "Simple Pricing",
+    desc: "Enjoy transparent and straightforward pricing plans designed to fit your budget—no hidden fees.",
+    dataAos: "fade-up",
+    dataDelay: "50",
+  },
+  {
+    icon: "icon-17b",
+    title: "24/7 Support",
+    desc: "Access expert technical support any time, day or night, to keep your business running smoothly.",
+    dataAos: "fade-up",
+    dataDelay: "100",
+  },
+];
+
 
 const FeatureThree = () => {
     return (

@@ -214,7 +214,7 @@ const About = () => {
                     <img className="about-shape-4d shape-3b d-none d-md-inline-block" src="assets/img/shape/star-4b.svg" alt="shape" />
                     <img className="about-shape-4d shape-4b d-none d-md-inline-block" src="assets/img/shape/star-7c.svg" alt="shape" />
                     <img className="about-shape-4d shape-5b d-none d-xl-inline-block" src="assets/img/shape/star-4b.svg" alt="shape" /> */}
-          <div className="container">
+          {/* <div className="container">
             <div className="row gx-4 gx-xxl-5 align-items-center">
               <div
                 className="col-lg-7"
@@ -247,16 +247,23 @@ const About = () => {
                 <BlockStyleOneA />
               </div>
             </div>
+          </div> */}
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-8" data-aos="fade-up" data-aos-delay={100}>
+                <BlockStyleOneA />
+              </div>
+            </div>
           </div>
         </section>
         {/*about-techy end*/}
 
         {/*counter-area end*/}
-        <section className="counter-area pt-70 pb-100 pt-lg-25 pb-lg-15">
+        {/* <section className="counter-area pt-70 pb-100 pt-lg-25 pb-lg-15">
           <div className="container">
             <CounterTwoA />
           </div>
-        </section>
+        </section> */}
         {/*counter-area start*/}
 
         {/*techy-team start*/}
