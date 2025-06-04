@@ -4,7 +4,7 @@ const FeaturesContent = [
   {
     icon: "icon-15b",
     title: "Hybrid Apps",
-    desc: "Seamlessly build cross-platform applications that deliver native performance and a consistent user experience.",
+    desc: "We specialize in building high-performance hybrid mobile apps that combine the best of both worlds.",
     dataAos: "fade-up",
     dataDelay: "",
   },
