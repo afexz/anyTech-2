@@ -4,22 +4,22 @@ import { Link } from 'react-router-dom'
 const teamContent = [
     {
         img: 'team-1b',
-        desig:'Chief Excutive',
-        name:'Savannah Nguyen',
+        desig:'Chief Excutive/ Germany Branch',
+        name:'Yosef Solomon',
         dataAos:'fade-up',
         dataDelay: '100',
     },
     {
         img: 'team-2b',
-        desig:'chief Excutive',
-        name:'Timm Miller',
+        desig:'chief Excutive/ Ethiopia Branch',
+        name:'Nahom Hambissa',
         dataAos:'fade-up',
         dataDelay: '100',
     },
     {
         img: 'team-3b',
-        desig:'Chief Manager',
-        name:'David Human',
+        desig:'Chief Excutive/ USA Branch',
+        name:'Afom Bokre',
         dataAos:'fade-up',
         dataDelay: '100',
     },

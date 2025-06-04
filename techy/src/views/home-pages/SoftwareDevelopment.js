@@ -205,14 +205,14 @@ const SoftwareDevelopment = () => {
                         <div className="row gx-4 gx-xxl-5 align-items-center">
                             <div className="col-xl-7 col-lg-6">
                                 <div className="process-img-wrapper mb-45">
-                                    <img src="assets/img/work/process-1b.jpg" alt="img" />
+                                    <img src="assets/img/work/howto-4.png" alt="img" />
                                     <div className="call-box">
                                         <div className="icon">
                                             <img src="assets/img/icon/icon-27b.svg" alt="icon" />
                                         </div>
                                         <h3 className="sect-title-two">Do you have
                                             any question?</h3>
-                                        <h4 className="fs-24 text-uppercase text-theme fw-medium">+(480) 555-0103</h4>
+                                        <h4 className="fs-24 text-uppercase text-theme fw-medium">+(918) 500-0103</h4>
                                     </div>
                                 </div>
                             </div>

@@ -64,7 +64,7 @@ const ThemeMenuThree = () => {
                                             </div>
                                             <div className="text-content">
                                                 <span>Time</span>
-                                                <h6 className="text-white">10AM - 11:30PM</h6>
+                                                <h6 className="text-white">24/7</h6>
                                             </div>
                                         </div>
                                     </li>
@@ -80,17 +80,17 @@ const ThemeMenuThree = () => {
                                                         <a
                                                             className="language-btn dropdown-toggle"
                                                             href="#">
-                                                            USA, New York
+                                                            USA, Oklohoma
                                                             <i className="fal fa-chevron-down"/>
                                                         </a>
                                                         <ul className="dropdown-menu-language" aria-labelledby="dropdownMenuLink">
                                                             <li>
-                                                                <a className="dropdown-item" href="#">Washington DC</a>
+                                                                <a className="dropdown-item" href="#">Ethiopia, Addis Ababa</a>
                                                             </li>
                                                             <li>
-                                                                <a className="dropdown-item" href="#">Nevrada</a>
+                                                                <a className="dropdown-item" href="#">Germany, Berlin</a>
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <a className="dropdown-item" href="#">New Walsh</a>
                                                             </li>
                                                             <li>
@@ -98,7 +98,7 @@ const ThemeMenuThree = () => {
                                                             </li>
                                                             <li>
                                                                 <a className="dropdown-item" href="#">Hampshire</a>
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -112,7 +112,7 @@ const ThemeMenuThree = () => {
                                             </div>
                                             <div className="text-content">
                                                 <span>Phone</span>
-                                                <h6 className="text-white">(505) 555-0125</h6>
+                                                <h6 className="text-white">(918) 500-0125</h6>
                                             </div>
                                         </div>
                                     </li>

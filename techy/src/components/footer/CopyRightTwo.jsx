@@ -40,7 +40,7 @@ const CopyRightTwo = () => {
                     </div>
                     <div className="col-xl-4 col-lg-12 col-md-7 text-center">
                         <p className="text-white mb-20 pe-xl-3">
-                            <a href="https://themeforest.net/user/hamina-themes/portfolio">Hamina-Themes </a>
+                            <a href="https://themeforest.net/user/hamina-themes/portfolio">AnyTech </a>
                             © {new Date().getFullYear()}, All Rights Reserved</p>
                     </div>
                 </div>
