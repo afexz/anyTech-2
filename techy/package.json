@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "@hookform/resolvers": "^2.9.10",
     "@metismenu/react": "^0.0.2",
@@ -14,6 +15,7 @@
     "ajv-keywords": "^3.5.2",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.0.2",
+    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-circular-progressbar": "^2.1.0",
