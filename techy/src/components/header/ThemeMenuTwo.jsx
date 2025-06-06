@@ -42,7 +42,6 @@ const ThemeMenuTwo = () => {
     window.addEventListener('scroll', stickyMenu);
   return (
     <Fragment>
-        <SearchModal isOpen={modalIsopen} onClick={closeModal}/>
         <SideBar onClick={closeSidebar} value={showSidebar} />
         <header className="theme-main-menu theme-menu-two pt-md-25 pt-40">
             <div className="top-header pb-20">
@@ -55,11 +54,7 @@ const ThemeMenuTwo = () => {
                         </div>
                         <div className="col-lg-6 col-6 text-end">
                             <ul className="right-nav mb-0 d-flex align-items-center justify-content-end">
-                                <li className="search-area">
-                                    <a className="search_input" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" onClick={openModal}>
-                                        <i className="bi bi-search" />
-                                    </a>
-                                </li>
+                             
                                 <li className="d-none d-lg-inline-block">
                                     <div className="hamburger-menu">
                                         <div className="d-none d-lg-inline-block">
