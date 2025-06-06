@@ -73,10 +73,10 @@ const CaseSliderOne = () => {
                             <div className="case-content">
                                 <span>{val.tag}</span>
                                 <h3>
-                                    <Link className="sect-title-two" to="/project-details">{val.title}</Link>
+                                    <Link className="sect-title-two" to="/project-grid">{val.title}</Link>
                                 </h3>
                                 <p>{val.desc}</p>
-                                <Link className="case-btn" to="/project-details"><i className={val.icon}/></Link>
+                                <Link className="case-btn" to="/project-grid"><i className={val.icon}/></Link>
                             </div>
                         </div>
                     </div>

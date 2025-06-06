@@ -20,7 +20,7 @@ const ProjectGrid = () => {
             <div className="main-page-wrapper">
                 {/* Helmet start */}
                 <Helmet>
-                    <title>Project Grid || Techy – IT Solution & Web Security React Template</title>
+                <title>ANYTECH – Web & Digital Solutions | Full-Stack, UI/UX, Frontend, Backend, Graphic & Logo Design</title>
                 </Helmet>
                 {/* Helmet end */}
 
@@ -37,20 +37,22 @@ const ProjectGrid = () => {
                     <div className="container">
                         <div className="row gx-4 gx-xxl-5 align-items-center justify-content-center">
                             <div className="col-xl-5 col-lg-6 col-md-8">
-                                <div className="section-title text-center mb-25">
-                                    <h3 className="sect-title mb-25" data-aos="fade-up">Featured Works</h3>
-                                    <p data-aos="fade-up">Dramatically supply transparent
-                                        backward deliverables before caward comp internal or "organic" sources.</p>
-                                </div>
+                            <div className="section-title text-center mb-25">
+  <h3 className="sect-title mb-4" data-aos="fade-up">Our Featured Projects</h3>
+  <p data-aos="fade-up">
+    Explore some of our recent work – from stunning UI/UX designs to fully responsive websites and full-stack solutions built for real clients across various industries.
+  </p>
+</div>
+
                             </div>
                         </div>
                         {/* ProjectGridOne start */}
                         <ProjectGridOne />
                         {/* ProjectGridOne end */}
                         <div className="row">
-                            <div className="col-lg-12 text-center mt-10 mb-45">
+                            {/* <div className="col-lg-12 text-center mt-10 mb-45">
                                 <Link className="theme_btn" to="/project-masonry">Load More</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
