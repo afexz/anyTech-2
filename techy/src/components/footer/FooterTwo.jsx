@@ -3,24 +3,25 @@ import { Link } from 'react-router-dom';
 import { SubscribeFormOne } from '../form/SubscribeFormOne';
 import CopyRightTwo from './CopyRightTwo';
 
-const pageContent =[
-    {
-        name: 'Home',
-        routerPath: '/'
-    },
-    {
-        name: 'popular',
-        routerPath: '/services'
-    },
-    {
-        name: 'Best Offer',
-        routerPath: '/price'
-    },
-    {
-        name: 'Destinations',
-        routerPath: '/contact'
-    },
-]
+const pageContent = [
+  {
+    name: "Home",
+    routerPath: "/",
+  },
+  {
+    name: "About Us",
+    routerPath: "/about",
+  },
+  {
+    name: "Our Services",
+    routerPath: "/services",
+  },
+
+  {
+    name: "Contact Us",
+    routerPath: "/contact",
+  },
+];
 
 const serviceContent =[
     {
@@ -28,11 +29,11 @@ const serviceContent =[
         routerPath: '#'
     },
     {
-        name: '(918) 500-0125',
+        name: '(918) 500-3747',
         routerPath: '#'
     },
     {
-        name: '90511 S Desert Palm Ave, Broken Arrow, OK 74012',
+        name: ' S Desert Palm Ave, Broken Arrow, OK 74012',
         routerPath: '#'
     },
 

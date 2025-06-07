@@ -112,7 +112,7 @@ const ThemeMenuThree = () => {
                                             </div>
                                             <div className="text-content">
                                                 <span>Phone</span>
-                                                <h6 className="text-white">(918) 500-0125</h6>
+                                                <h6 className="text-white">(918) 500-3747</h6>
                                             </div>
                                         </div>
                                     </li>

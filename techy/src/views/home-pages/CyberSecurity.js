@@ -234,7 +234,7 @@ const CyberSecurity = () => {
               <div className="col-lg-12">
                 <div className="section-title text-center mb-55">
                   <h6 className="sub-title-two mb-20" data-aos="fade-up">Testimonials</h6>
-                  <h2 className="sect-title" data-aos="fade-up" data-aos-delay={100}>What Our Client Says</h2>
+                  <h2 className="sect-title" data-aos="fade-up" data-aos-delay={100}>What Our Clients Say</h2>
                 </div>
               </div>
             </div>
