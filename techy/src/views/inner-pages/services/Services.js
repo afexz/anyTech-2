@@ -39,9 +39,8 @@ const Services = () => {
                       Our Services
                     </h3>
                     <p data-aos="fade-up" data-aos-delay={100}>
-                      Our expert web development services deliver modern,
-                      responsive, and user-friendly websites that attract
-                      customers and drive results. .
+                      Help to transform ideas into powerful, scalable solutions that
+                      drive growth and inspire confidence.
                     </p>
                   </div>
                 </div>
