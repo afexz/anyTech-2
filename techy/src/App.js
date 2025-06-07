@@ -24,7 +24,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="IT, Tech, Web Security, Data Science, Analytics, Data, sass, software company" />
         <meta name="description"
-          content="Techy – IT Solution & Web Security React Template is designed especially for the agency, multipurpose and business and those who offer business-related services." />
+          content="ANY – IT Solution & Web Security React Template is designed especially for the agency, multipurpose and business and those who offer business-related services." />
         <meta property="og:site_name" content="Sinco" />
         <meta property="og:url" content="https://themeforest.net/user/hamina-themes/" />
         <meta property="og:type" content="website" />

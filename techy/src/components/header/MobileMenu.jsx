@@ -125,52 +125,21 @@ const MobileMenu = (props) => {
             <MetisMenu>
                 <li className="has-dropdown">
                     <a href="#">Home</a>
-                    <ul className="sub-menu">
-                      {HomeMenu.map((val, i)=>(
-                        <li key={i}>
-                            <Link onClick={onClick} to={val.routerPath}>{val.name}</Link>
-                        </li>
-                      ))}
-                    </ul>
                   </li>
                 <li className="has-dropdown">
-                    <a href="#">Pages</a>
-                    <ul className="sub-menu">
-                      {Miscellaneous.map((val, i)=>(
-                        <li onClick={onClick} key={i}>
-                            <Link  to={val.routerPath}>{val.name}</Link>
-                        </li>
-                      ))}
-                    </ul>
+                    <a href="/about">About Us</a>
+              
                   </li>
                 <li className="has-dropdown">
-                    <a href="#">Project</a>
-                    <ul className="sub-menu">
-                      {ProjectMenu.map((val, i)=>(
-                        <li onClick={onClick} key={i}>
-                            <Link to={val.routerPath}>{val.name}</Link>
-                        </li>
-                      ))}
-                    </ul>
+                    <a href="/project-grid">Project</a>
+              
                   </li>
-                <li className="has-dropdown">
-                    <a href="#">Blog</a>
-                    <ul className="sub-menu">
-                      {BlogMenu.map((val, i)=>(
-                        <li onClick={onClick} key={i}>
-                            <Link to={val.routerPath}>{val.name}</Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                  <li onClick={onClick}>
-                    <Link to="/contact">Contact Us</Link>
-                  </li>
+               
+              
             </MetisMenu>
         </div>
         <div className="login-btn text-center mt-4">
-            <Link className="theme_btn w-100" to="/login">Login</Link>
-            <p className="text-white">Don't have an account ? Please <Link to="/signup" className="border-bottom">Signup</Link> today</p>
+            <Link className="theme_btn w-100" to="/contact">Contact Us</Link>
         </div>
     </div>
   )

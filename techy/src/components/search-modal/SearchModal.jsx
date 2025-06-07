@@ -12,7 +12,7 @@ const SearchModal = (props) => {
     
     return (
         <Fragment>
-            <Modal
+            {/* <Modal
                 isOpen={isOpen}
                 onRequestClose={onClick}
                 className="offcanvas-tops"
@@ -29,7 +29,7 @@ const SearchModal = (props) => {
                             placeholder="Search Your Keyword..."/>
                     </form>
                 </div>
-            </Modal>
+            </Modal> */}
         </Fragment>
     )
 }
