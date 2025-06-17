@@ -267,7 +267,7 @@ const About = () => {
         {/*counter-area start*/}
 
         {/*techy-team start*/}
-        <section className="gradient-bg techy-team team-sec-two mt-0 pt-95  pb-90 pt-lg-55 pb-lg-60">
+        {/* <section className="gradient-bg techy-team team-sec-two mt-0 pt-95  pb-90 pt-lg-55 pb-lg-60">
           <img
             className="team-shape shape-1b"
             src="assets/img/shape/star-3b.svg"
@@ -320,7 +320,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*techy-team end*/}
 
         {/*techy-video start*/}
