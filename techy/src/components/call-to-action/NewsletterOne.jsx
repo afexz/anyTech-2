@@ -4,7 +4,7 @@ import BlockStyleTwo from '../block/BlockStyleTwo'
 const NewsletterOne = () => {
     return (
         <Fragment> 
-            <section className="techy-newsletter pt-120 pt-lg-60">
+            <section className="techy-newsletter pt-120 pt-lg-10">
                 <div className="container">
                     <div
                         className="row gx-4 gx-xxl-5 align-items-center justify-content-center borders">

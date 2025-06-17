@@ -55,13 +55,13 @@ const ProjectGrid = () => {
               {/* ProjectGridOne start */}
               <ProjectGridOne />
               {/* ProjectGridOne end */}
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-lg-12 text-center mt-10 mb-45">
                   <Link className="theme_btn" to="/project-masonry">
                     Load More
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </section>
           {/*techy-project-one end*/}

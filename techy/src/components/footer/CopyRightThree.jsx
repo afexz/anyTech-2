@@ -26,7 +26,7 @@ const CopyRightThree = () => {
         <div className="copyright-three">
             <div className="container">
                 <div className="row gx-4 gx-xxl-5 pt-60 align-items-center">
-                    <div className="col-xl-4 col-lg-6 pb-30">
+                    {/* <div className="col-xl-4 col-lg-6 pb-30">
                         <ul
                             className="fot-list text-center d-sm-flex align-items-center justify-content-center justify-content-lg-start">
                            {servicesContent.map((val,i)=>(
@@ -35,7 +35,7 @@ const CopyRightThree = () => {
                             </li>
                            ))}
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="col-xl-4 col-lg-6  text-center pb-30">
                         <p className="text-white mb-20">
                             <a href="https://themeforest.net/user/hamina-themes/portfolio">anyTech</a>
@@ -44,7 +44,7 @@ const CopyRightThree = () => {
                     <div
                         className="col-xl-4 col-lg-6 d-flex justify-content-center justify-content-lg-start justify-content-xl-end pb-30">
                             {/* SocialOne */}
-                            <SocialOne />
+                            {/* <SocialOne /> */}
                             {/* SocialOne */}
                     </div>
                 </div>
